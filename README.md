@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio Técnico - Biblioteca de Livros 📚
 
-## Getting Started
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de estágio Fullstack.
 
-First, run the development server:
+## 🚀 Tecnologias utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [React]
+- [Next.js]
+- [TypeScript]
+- [Tailwind CSS]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Listagem de livros
+- ✅ Cadastro de novos livros
+- ✅ Visualização de detalhes
+- ✅ Exclusão de livros
+- ✅ Validação de formulário
+- ✅ Dados salvos em `localStorage`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+.
+📁 ├── app/
+📁 │   ├── Components/       # Componentes reutilizáveis (ex: LivroCard)
+📁 │   ├── cadastro/         # Página de cadastro de livros
+📁 │   ├── livros/[id]/      # Página de detalhes do livro
+📁 │   ├── types/            # Tipagem TypeScript
+📄 │   └── page.tsx          # Página inicial (lista de livros)
+📄 └── README.md
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🤖 Uso de IA no Desenvolvimento
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Neste projeto, utilizei a ferramenta ChatGPT como um auxílio para:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Explicar conceitos e boas práticas de TypeScript e Next.js;
 
-## Deploy on Vercel
+Esclarecer o funcionamento dos estilos usando Tailwind CSS;
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ajudar na lógica de algumas funções específicas;
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Resolver dúvidas rápidas durante o desenvolvimento;
+
+Essa colaboração foi importante, pois me ajudou a entender melhor conceitos e práticas com ferramentas novas, com as quais eu não tive contato na minha carreira profissional.
