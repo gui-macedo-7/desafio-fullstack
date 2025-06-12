@@ -1,3 +1,8 @@
+## 🌐 Link do Projeto
+
+Você pode acessar o projeto online neste link:  
+[https://desafio-fullstack-535283uka-gui-macedo-7s-projects.vercel.app](https://desafio-fullstack-535283uka-gui-macedo-7s-projects.vercel.app)
+
 # Desafio Técnico - Biblioteca de Livros 📚
 
 Este projeto foi desenvolvido como parte do processo seletivo para a vaga de estágio Fullstack.
